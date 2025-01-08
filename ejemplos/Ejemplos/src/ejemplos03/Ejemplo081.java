@@ -34,9 +34,11 @@ public class Ejemplo081 {
         switch (opcion) {
             case 1:
                 mensajeSuma = obtenerTablaSumar(limite, tabla);
+                System.out.printf("%s\n", mensajeSuma);
                 break;
             case 2:
-             mensajeSumaDos = obtenerTablaMultiplicar(limite,tabla );
+                mensajeSumaDos = obtenerTablaMultiplicar(limite,tabla );
+                System.out.printf("%s\n", mensajeSumaDos);
              break;
         }
         
@@ -49,8 +51,8 @@ public class Ejemplo081 {
         
         //mensajeSumaDos = obtenerTablaMultiplicar(10, 9);
         
-        System.out.printf("%s\n", mensajeSuma);
-        System.out.printf("%s\n", mensajeSumaDos);
+        
+        
     }
         
     public static String obtenerTablaSumar(int limite, int tabla){
