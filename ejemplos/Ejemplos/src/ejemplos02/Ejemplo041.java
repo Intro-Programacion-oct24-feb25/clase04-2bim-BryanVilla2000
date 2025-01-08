@@ -10,7 +10,17 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
-
+    /*
+    En el metodo main tengo 3 arreglos bidimnsionales de tipo entero 
+    despues mediando dos ciclos para le damos calores al arreglo 3 la cual es 
+    la multplicacion del arreglo1 y arreglo mediante la multiplicacion se obtenie 
+    con la funcion de obtenerMultiplicacion la cual espera dos parametros de 
+    tipo entero.
+    Dspues llamamos al metodo llamado obtenerReporte la cual espera un parametro
+    de tipo arreglo bidimencional de tipo entero, dentro del metodo obtenerReporte 
+    recorre el arreglo y lo va acumulando en uan cadena para despues presentar 
+    dicha cadena 
+    */
     public static void main(String[] args) {
         // 
         
